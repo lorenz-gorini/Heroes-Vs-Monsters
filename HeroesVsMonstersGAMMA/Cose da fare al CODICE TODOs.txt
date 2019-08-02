@@ -1,0 +1,22 @@
+
+-1. AL MOMENTO STO SISTEMANDO monsterPOints e playerPoints in modo che diventino TextArea e siano modificabili.
+Al momento ho solo dichiarato come attributo private static della classe Game
+
+0. Devo gestirla come animation o come semplice evento setOnKeyPressed ???
+0.a Nel caso di Animation, dovrei modificare il booleano (o lo stato di una variabile) di ogni equipment, e andare ad analizzarlo ogni tot (azione definita da AnimationTimer , che a sua volta può essere definita in altri metodi. Quindi ogni tot avviene l'animazione in cui attacco l'aggredito)
+
+
+
+Taylor Mega
+
+1. crea un evento con space in modo tale da far partire il metodo attack(), altrimenti quando potrebbe partire? beh magari anche quando scelgo il mio primo attacco...un po' troppo complicato per il momento
+
+2. PULSANTI NON RISPONDONO O SOLO IN PARTE  Cerca di capire come funziona il focus, chi ce l'ha e se è necessario su setOnKeyPressed (dalla definizione sembrerebbe ma prova a vedere qualche altro esempio)
+Controlla come funziona quel metodo. Chissà...
+Probabilmente l'input lo sta prendendo qualcun altro forse.
+Prova effettivamente a scrivere il programma usando solamente l'ultima scene fightSc
+
+4. stampa le istruzioni da fare per il giocatore, almeno la prima volta
+
+3. AGGIORNA I PUNTI DI PLAYER,..//TODO How to solve this? Same as story or maybe something smarter with text or label? I should delete and write again!
+    upperGridPane.add(playerPoints, 1, 0);
